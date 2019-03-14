@@ -1,5 +1,3 @@
-package com.yodlee.springdependencyinjection.test;
-
 import com.yodlee.springdependencyinjection.consumer.ConsumerWithAnnotation;
 import com.yodlee.springdependencyinjection.service.MessageService;
 import org.junit.After;
