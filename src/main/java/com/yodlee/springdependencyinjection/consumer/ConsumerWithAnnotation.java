@@ -13,7 +13,7 @@ public class ConsumerWithAnnotation {
         this.messageService = messageService;
     }
 
-    public boolean processMessage(String message, String recepient) {
+    public void processMessage(String message, String recepient) {
         messageService.sendMessage(message, recepient);
     }
 }
