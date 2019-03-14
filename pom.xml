@@ -50,7 +50,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
-                            <mainClass>com.yodlee.springdependencyinjection.EmailApp</mainClass>
+                            <mainClass>com.yodlee.springdependencyinjection.TwitterApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
