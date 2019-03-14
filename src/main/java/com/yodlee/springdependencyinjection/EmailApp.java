@@ -1,3 +1,5 @@
+package com.yodlee.springdependencyinjection;
+
 import com.yodlee.springdependencyinjection.configuration.EmailConfiguration;
 import com.yodlee.springdependencyinjection.consumer.ConsumerWithAnnotation;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
