@@ -6,6 +6,6 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
 
     <bean id="twitter" class="com.yodlee.springdependencyinjection.service.TwitterService"></bean>
     <bean id="ConsumerWithXML" class="com.yodlee.springdependencyinjection.consumer.ConsumerWithXML">
-        <property name="service" ref="twitter"></property>
+        <property name="messageService" ref="twitter"></property>
     </bean>
 </beans>
